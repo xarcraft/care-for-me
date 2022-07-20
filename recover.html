@@ -6,25 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cuidame</title>
     <link
-      rel="stylesheet"
-      href="link"
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <div class="login-div">
@@ -39,11 +24,22 @@
           el que te registraste para enviarte el vinculo de recuperación del
           mismo.
         </p>
-        <div class="username">
-            <i class="fa-solid fa-envelope"></i>
-          <input type="email" class="user-input" placeholder="correo electronico" />
-        </div>
-        <button class="signin-button">Restaurar</button>
+        <form action="">
+          <div class="username">
+            <input
+              type="email"
+              class="user-input"
+              placeholder="correo electronico"
+              required
+            />
+          </div>
+          <input
+            type="submit"
+            value="Restaurar"
+            aria-required="true"
+            class="signin-button"
+          />
+        </form>
         <div class="link">
           <a href="index.html">Volver</a>
         </div>

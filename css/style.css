@@ -31,6 +31,7 @@ body {
 .logo img {
   width: 100px;
   border-radius: 50%;
+  background-color: cornflowerblue;
 }
 .title {
   text-align: center;
@@ -54,7 +55,6 @@ body {
   outline: none;
   background: none;
   font-size: 18px;
-  color: rgba(31, 33, 173, 0.856);
   padding: 20px 10px 20px 5px;
 }
 
@@ -76,18 +76,16 @@ body {
   font-size: 20px;
   font-weight: 700;
   font-family: "Lato", sans-serif;
-  color: #fff;
+  color: #000;
   text-align: center;
-  background-color: #02c8c8;
   box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #b1b1b1, -3px -3px 8px #ffff;
   transition: all 0.5s;
 }
 
 .signin-button:hover {
   background-color: #50aee5;
-}
-.signin-button:active {
-  background-color: #50e5b9;
+  color: #fff;
+  font-weight: bold;
 }
 .link {
   padding-top: 20px;
@@ -109,9 +107,5 @@ body {
   outline: none;
   background: none;
   font-size: 18px;
-  color: rgba(31, 33, 173, 0.856);
   padding: 20px 10px 20px 5px;
-}
-.mensaje{
-    text-align: center;
 }
