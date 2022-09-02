@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Radius - Signin/Signup</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+  </head>
+
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Recuperar credenciales</h1>
+          <p>
+            Por favor ingresa el correo con el cual se registro, seguidamente de
+            clic en el botón enviar y siga las instrucciones que serán enviadas
+            a su correo.
+          </p>
+          <input type="email" placeholder="Email" />
+          <button>Enviar</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="pages/dashboard.html">
+          <h1>Iniciar sesión</h1>
+          <input type="email" placeholder="Correo" />
+          <input type="password" placeholder="Contraseña" />
+          <button>Ingresar</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>CARE FOR ME</h1>
+            <img src="assets/img/care.png" height="100px" alt="logo" />
+            <p>
+              Para volver a la pantalla de inicio de sesión presiona este botón.
+            </p>
+            <button class="ghost" id="signIn">Volver</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>CARE FOR ME</h1>
+            <img src="assets/img/care.png" height="100px" alt="logo" />
+            <p>
+              Si haz olvidado tus credenciales de acceso presiona el siguiente
+              botón para iniciar el proceso de recuperación.
+            </p>
+            <button class="ghost" id="signUp">Recuperar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
