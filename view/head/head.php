@@ -22,6 +22,7 @@ if($_SESSION["s_usuario"] === null){
   <!-- Styles  -->
   <link rel="shortcut icon" href="../../assets/img/care.png" type="image/x-icon" />
   <link rel="stylesheet" href="../../assets/css/style-inicio.css" />
+  <link rel="stylesheet" href="../../assets/css/hereda_bootstrap.css" />
 </head>
 
 <body>

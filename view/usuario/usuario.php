@@ -10,7 +10,7 @@ require_once("/xampp/htdocs/CareForMe/view/head/head.php");
 </ul>
 <br>
 <div >
-    <a href="#" class="btn-send" ><i class='bx bx-user-plus'></i> nuevo usuario</a>
+    <a href="nuevo.php" class="btn-send" ><i class='bx bx-user-plus'></i> nuevo usuario</a>
 </div>
 <br>
 <table class="table">
