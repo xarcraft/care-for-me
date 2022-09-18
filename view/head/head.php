@@ -98,7 +98,7 @@ if($_SESSION["s_usuario"] === null){
       <!-- Inicio del perfil -->
       <div>
         <h4><?php echo $_SESSION["s_usuario"];?></h4>
-        <small>Cardiologo</small>
+        <small>Cardiología</small>
       </div>
       <span class="divider"></span>
 
