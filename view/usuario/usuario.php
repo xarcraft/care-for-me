@@ -7,9 +7,7 @@ $rows = $obj->index();
 
 <h1 class="title">Usuarios</h1>
 <ul class="breadcrumbs">
-    <li><a href="#">Inicio</a></li>
-    <li class="divider">/</li>
-    <li><a href="#" class="active">Calendario</a></li>
+    <li><a href="../inicio/inicio.php">Inicio</a></li>
 </ul>
 <br>
 <div>
