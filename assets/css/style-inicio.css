@@ -19,12 +19,12 @@
     --dark-gray: #8d8d8d;
     --light: #fff;
     --dark: #000;
-    --green: #81d43a;
+    --green: #10c04b;
     --light-green: #e3ffcb;
     --blue: #539de3;
     --light-blue: #d0e4ff;
     --dark-blue: #040165;
-    --red: #fc3b56;
+    --red: #ff0000;
 }
 
 html{
@@ -398,6 +398,19 @@ main .breadcrumbs li a.active,
 main .breadcrumbs li.divider{
     color: var(--dark-gray);
     pointer-events: none;
+}
+
+main .btn-send{
+    padding: 10px 16px;
+    background: var(--green);
+    border-radius: 5px;
+    color: var(--light);
+    cursor: pointer;
+    border: none;
+    transition: all .3s ease;
+}
+main .btn-send:hover{
+    background: var(--red);
 }
 
 /* ============ Responsive / Breakpoints ========== */

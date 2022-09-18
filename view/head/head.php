@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if($_SESSION["s_usuario"] === null){
+    header("Location: ../../index.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -56,7 +65,7 @@
       </li>
 
       <li>
-        <a href="#"><i class="bx bx-help-circle icon"></i> Ayuda</a>
+        <a href="../usuario/usuario.php"><i class='bx bx-plus-medical icon'></i> Usuarios</a>
       </li>
     </ul>
   </section>
@@ -87,7 +96,7 @@
 
       <!-- Inicio del perfil -->
       <div>
-        <h4>Luis Arbelaez</h4>
+        <h4><?php echo $_SESSION["s_usuario"];?></h4>
         <small>Cardiologo</small>
       </div>
       <span class="divider"></span>
@@ -98,7 +107,7 @@
         </div>
         <ul class="profile-link">
           <li>
-            <a href="../usuario/usuario.php"><i class="bx bxs-user-circle icon"></i> Perfil</a>
+            <a href="../perfil/perfil.php"><i class="bx bxs-user-circle icon"></i> Perfil</a>
           </li>
           <li>
             <a href="#"><i class="bx bxs-cog icon"></i> Ajustes</a>
